@@ -444,7 +444,7 @@ class dIdV_sim:
 
 
 # Main script
-filepath_sys = 'C:/Users/Benjamin Kafin/Documents/VASP/NHC/IPR/SAM/adatoms/rect_staggered/mid/spinorb/freegold1/freegold2/freegold3/tall/kpoints551/'
+filepath_sys = 'filepath'
 position_sys = np.array([0,   0, 28.34])
 
 # Initialize the system LDOS
