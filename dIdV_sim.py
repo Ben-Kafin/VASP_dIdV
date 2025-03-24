@@ -444,7 +444,7 @@ class dIdV_sim:
 
 
 # Main script
-filepath_sys = 'filepath'
+filepath_sys = 'system filepath'
 position_sys = np.array([0,   0, 28.34])
 
 # Initialize the system LDOS
@@ -464,7 +464,7 @@ smoothed_system_ldos = gaussian_filter(np.sum(system_ldos.ldos_at_position, axis
 system_ldos.plot_total_ldos(position_sys)
 
 
-filepath_tip = 'C:/Users/Benjamin Kafin/Documents/VASP/Silver/tip/kpoints551'
+filepath_tip = 'tip filepath'
 position_tip = np.array([5.87769, 10.18070, 23.59848])
 
 # Initialize the tip LDOS
